@@ -1,0 +1,102 @@
+body {
+font: 12px/20px "SimSun","Arial Narrow";
+}
+
+#allwrap{
+	width:960px; height:auto; overflow:hidden; margin:0 auto; position:relative;
+}
+#body{
+	width:960px; height:auto; overflow:hidden; margin:0 auto; position:relative;
+}
+#top,#middle,#bottom{
+	width:960px; height:auto; overflow:hidden; margin-bottom:10px; position:relative;
+}
+
+.leftbox a, .rightbox a{
+	display:inline-block; color:#222;
+}
+
+.leftbox{
+	width:620px; height:auto; overflow:hidden; float:left; /*background:#2ADF55;*/
+}
+
+.leftbox h2 a, .rightbox h2 a{
+	margin-right:20px;	
+}
+.leftbox p a, .rightbox p a{
+	margin-right:15px;	
+}
+.leftbox h2{
+	font-size:16px; line-height:40px;
+}
+.leftbox p{
+	font-size:12px; line-height:20px;
+}
+.rightbox{
+	width:320px; height:auto; overflow:hidden; float:right; /*background:#0F5;*/
+}
+
+
+
+.title { background:url(http://www.zhibo8.cc/css/images/menu_bar2.gif) right 0 no-repeat; height:31px; padding-right:10px; zoom:1; }
+.title:after { content:"\0020"; display:block; height:0; clear:both; font-size:0; }
+.title h2 { height:30px; padding:1px 0 0 10px; background:url(http://www.zhibo8.cc/css/images/menu_bar2.gif) 0 0 no-repeat; float:left; }
+.title h2 a { float:left; display:block; height:30px; line-height:30px; font-size:14px; font-family:'微软雅黑', 'Microsoft YaHei', '黑体', Arial; font-weight:normal; }
+.title h2 a, .title h2 a:link, .title h2 a:visited, .title h2 a:active, .title h2 a:hover, .title h2 a:focus { color:#062b6e; text-decoration:none; }
+
+.more { float:right; height:31px; line-height:31px; color:#7d7d7d; }
+.more:link, .more:visited { color:#7d7d7d; text-decoration:none; }
+.more:active, .more:hover, .more:focus { color:#f00; text-decoration:none; }
+
+.leftbox .content, .rightbox .content {
+padding: 10px;
+border: solid 1px #d3d3d3;
+border-top: none;
+zoom: 1;
+}
+
+
+
+#header{
+	width:960px; height:132px; _height:135px; margin:0 auto; margin-bottom:10px; position:relative; overflow:hidden;
+}
+	#header h1{
+		width:230px; height:80px;text-align:center; padding: 10px 0 10px 0;
+	}
+		#header h1 a{
+			width:230px; height:80px;  display:block; text-indent: -9999px; background:url(http://drmcmm.baidu.com/media/id=P1RdP1msnjR&gp=401&time=nHnYn161nWTvns.gif) no-repeat;
+		}
+	#header .headeradvert{
+		width:640px; height:70px; position:absolute; right:0; top:20px;
+	}
+	#header #actions{
+		width:100px; height:60px; position:absolute; left:240px; top:20px; overflow:hidden;
+	}
+		#header #actions ul{
+			width:100px; height:60px; 
+		}
+			#header #actions ul li{
+				line-height:20px; height:20px; padding:0;
+			}
+				#header #actions ul li a{
+					font-size:12px;
+				}
+	#header #nav{
+		width:958px; height:30px; background:url(http://www.zhibo8.cc/css/images/menu_bg2.gif) repeat-x;  border: 1px solid #CAD9EA;
+	}
+		#header #nav ul{
+			width:auto; height:30px; position:relative; margin:0 auto; text-align:center;
+		}
+			#header #nav ul li{
+				width:auto; height:30px; display:inline-block; text-align:center; /*padding-right: 2px;background: url(images/headerNavLine.png) right 0 no-repeat; */display:inline; 
+			}
+			#header #nav ul li:hover{
+				/*background: url(images/headerNavOn.png) 0 0 repeat-x;*/
+			}
+				#header #nav ul li a{
+					width:auto; height:30px; padding:0 8px; display:inline-block; font-size:12px; line-height:30px; 
+				}
+				#header #nav ul li a:hover{
+					/*background: url(images/headerNavOn.png) 0 0 repeat-x;*/
+					text-decoration: none;
+				}
